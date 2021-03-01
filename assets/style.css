@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0;
+}
+header {display: inline;}
+main {
+    padding: 15px; 
+    overflow: auto; 
+    background-color: #e8e8e8;}
+h1 {font-size: 26pt; color: white;}
+h2, h4 {
+    font-family: 'Lora', serif;
+    color: #1e212d;
+}
+p {
+    font-family: 'Shippori Mincho', serif;
+}
+#visi li {
+    font-family: 'Shippori Mincho', serif;
+}
+footer {
+    padding: 15px; 
+    color: black;
+    background-color: #bbbfca;
+    text-align: center;
+    font-weight: bold;
+}
+nav {
+    background-color: #bbbfca;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+nav a {
+    font-size: 12pt;
+    font-weight: 400;
+    text-decoration: none;
+    color:#1e212d;
+}
+nav a:hover {font-weight: bold;}
+.profile header {text-align: center;}
+nav li {
+    display: inline;
+    list-style-type: lower-roman;
+    margin-right: 20px;
+}
+.image-set {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.profile img {width: 200px;}
+.box {
+    box-shadow: 0 5px 9px 0 rgb(235, 210, 210);
+    background-color: #f4f4f2;
+    border-radius: 5px;
+    text-align: justify;
+    padding: 10px;
+    margin: 5px;
+}
+.jumbotron {
+    font-size: 20pt;
+    padding: 30px;
+    background-color: #495464;
+    text-align: center;
+    color: white;
+}
+blockquote::before, blockquote::after {
+    content: '"';
+    font-style: italic;
+}
+#content {float: left; width: 75%;}
+
+aside {
+    float: right;
+    width: 25%;
+}
+* {box-sizing: border-box;}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
